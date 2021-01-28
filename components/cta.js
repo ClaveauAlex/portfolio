@@ -1,4 +1,4 @@
-import styles from "../styles/CTA.module.css";
+import styles from "../styles/Cta.module.css";
 import Link from "next/link";
 
 export default function Cta() {
