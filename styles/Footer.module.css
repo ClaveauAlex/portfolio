@@ -1,0 +1,132 @@
+.footerContainer {
+  background: #2f4f52;
+  color: #cccccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 48px 48px;
+  width: 100%;
+}
+
+.bold {
+  font-weight: 600;
+  color: #fff;
+}
+
+.site {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.site > p {
+  margin: 0;
+}
+
+.site > .bold {
+  padding-top: 5px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.links > p {
+  margin: 0;
+}
+
+.liste > li {
+  padding: 5px 0;
+}
+
+.social {
+  margin-top: 30px;
+}
+
+.socialContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5px;
+}
+
+.linkSocial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkSocial > a {
+  padding-left: 5px;
+}
+
+.social > p {
+  margin: 0;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .footerContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 64px 64px;
+  }
+
+  .site {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 0px;
+  }
+
+  .social {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 0px;
+  }
+
+  .linkSocial {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .socialContainer {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

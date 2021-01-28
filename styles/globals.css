@@ -1,9 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Inter", sans-serif;
+}
+
+html,
+body,
+#root {
+  height: 100%;
 }
 
 a {
@@ -11,6 +22,65 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+p {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 44px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.rec.rec-arrow{
+  border-radius: 0;
+  background-color: unset;
+  box-shadow: none;
+  color: #347c90;
+}
+
+.rec.rec-carousel > .rec.rec-arrow:hover{
+  background-color: #347c90;
+  color: #fff;
+}
+
+.rec.rec-arrow:disabled {
+  visibility: hidden;
+}
+
+.rec.rec-pagination > .rec.rec-dot{
+  box-shadow: 0 0 1px 1px rgba(0,0,0,0.5);
+}
+
+.rec.rec-pagination >.rec.rec-dot_active{
+  background-color: #347c90;
+}
+
+.rec.rec-pagination > .rec.rec-dot:hover {
+  background-color: #347c90;
 }
