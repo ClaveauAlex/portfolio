@@ -1,3 +1,17 @@
+# Mon site professionnel
+## Présentation
+Ce projet me permet de développer mon site et de ce fait mon image afin de prospecter des clients. Je vais donc faire ce site step by step. C’est à dire que j’ai pris du temps afin de rendre le processus de création complet.
+
+Je m’explique. J’ai pris du temps pour apprendre à manipuler des logiciels de maquette notamment [Figma](https://www.figma.com/). Cela ma donc permis de réaliser une maquette complète de mon site professionnelle. Ainsi, j’ai pu faire face aux différents problèmes tel que le développement sur mobile etc. C’est pourquoi afin de palier à ça, la maquette a été réalisé en **Mobile First**.
+
+J’ai donc finalement terminé ma maquette et c’est pourquoi je fais ma transition aujourd’hui en code. L’étude de l’UX et de la charte graphique étant faite avant, va me permettre de gagner du temps. ( voir `style-guide.md`)
+
+Vous portez très prochainement venir inspecter mon travail sur le lien suivant : [Futur Lien](#)
+
+Installez vous et prenez un thé/café/coca pour venir lire mon code.
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -32,3 +46,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Le style guide
+Vous pouvez venir voir le style guide dans le fichier suivant : `style-guide.md`. Cela vous permettra de voir les choix pour le design du site ainsi que les sources des illustrations.
