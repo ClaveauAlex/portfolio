@@ -31,6 +31,7 @@ export default function Home() {
         <meta property="og:description" content={informations.description} />
         <meta property="og:url" content={informations.url} />
         <meta property="og:site_name" content={informations.name} />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet" />
       </Head>
       <Navbar></Navbar>
       <main className={styles.mainContainer}>

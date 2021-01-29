@@ -109,7 +109,7 @@ export default function About() {
             <p>
               Voilà pourquoi, je peux vous permettre d'
               <span className={styles.bold}>augmenter votre audience</span>
-              afin de la{" "}
+              {" "}afin de la{" "}
               <span className={styles.bold}>convertir en clients</span> et ainsi
               éviter d'éventuel problèmes.{" "}
             </p>

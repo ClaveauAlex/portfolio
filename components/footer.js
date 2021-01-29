@@ -43,13 +43,13 @@ export default function Footer() {
         <ul className={styles.socialContainer}>
           <li className={styles.linkSocial}>
             <AiFillLinkedin />
-            <a href={linkedinUrl} target="_blank">
+            <a to={linkedinUrl} target="_blank">
               linkedin.fr/claveau
             </a>
           </li>
           <li className={styles.linkSocial}>
             <AiFillInstagram />
-            <a href={instagramUrl} target="_blank">
+            <a to={instagramUrl} target="_blank">
               alexandre_claveau.me
             </a>
           </li>

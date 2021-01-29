@@ -19,13 +19,13 @@ export default function Navbar() {
       </Link>
       <ul className={styles.links}>
         <li>
-          <a href="#">A propos</a>
+          <a to="#">A propos</a>
         </li>
         <li>
-          <a href="#">Compétences</a>
+          <a to="#">Compétences</a>
         </li>
         <li>
-          <a href="#">Expériences</a>
+          <a to="#">Expériences</a>
         </li>
       </ul>
       <div className={styles.menu}>
