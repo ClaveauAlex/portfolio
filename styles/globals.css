@@ -67,6 +67,11 @@ p {
   color: #fff;
 }
 
+.rec.rec-carousel > .rec.rec-arrow:focus{
+  background-color: #347c90;
+  color: #fff;
+}
+
 .rec.rec-arrow:disabled {
   visibility: hidden;
 }

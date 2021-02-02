@@ -17,25 +17,25 @@ export const Contact = () => {
           height={700}
         />
       </div>
-      <div>
+      <div className={styles.informations}>
         <h1>
           Et si on travaillait <span className={styles.bold}>ensemble</span> ?
         </h1>
-        <div>
+        <div className={styles.contacts}>
           <a href="mailto:alexandre.claveau.pro@gmail.com">
             alexandre.claveau.pro@gmail.com
           </a>
           <a href="tel:+33648341409">06 48 34 14 09</a>
         </div>
-        <ul>
+        <ul className={styles.links}>
           <li>
             <Link href={linkedinUrl} target="_blank">
-              linkedin.fr/claveau
+              <a>Linkedin</a>
             </Link>
           </li>
           <li>
             <Link href={instagramUrl} target="_blank">
-              alexandre_claveau.me
+              <a>Instagram</a>
             </Link>
           </li>
         </ul>
