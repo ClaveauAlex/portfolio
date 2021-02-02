@@ -34,8 +34,7 @@ export const Testimonials = () => {
               de l'écoute, une bonne compréhension des besoins clients et doté
               d'une très bonne maîtrise des technologies. Sa rapidité
               d'exécution permet d'itérer et trouver la meilleure solution pour
-              une expérience utilisateur parfaite. C'est un plaisir de
-              travailler avec Alexandre, même à distance !{" "}
+              une expérience utilisateur parfaite.{" "}
             </p>
             <div className={styles.portrait}>
               <Image
