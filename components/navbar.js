@@ -1,9 +1,10 @@
+import React from "react";
 import styles from "../styles/Navbar.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
-export default function Navbar() {
+export const Navbar = () => {
   return (
     <nav className={styles.container}>
       <Link href="/">
@@ -19,13 +20,13 @@ export default function Navbar() {
       </Link>
       <ul className={styles.links}>
         <li>
-          <a to="#">A propos</a>
+          <a href="#about">A propos</a>
         </li>
         <li>
-          <a to="#">Compétences</a>
+          <a href="#skills">Compétences</a>
         </li>
         <li>
-          <a to="#">Expériences</a>
+          <a href="#experiences">Expériences</a>
         </li>
       </ul>
       <div className={styles.menu}>

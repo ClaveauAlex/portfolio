@@ -1,8 +1,9 @@
+import React from "react";
 import styles from "../styles/Testimonials.module.css";
 import Image from "next/image";
 import Carousel from "react-elastic-carousel";
 
-export default function Testimonials() {
+export const Testimonials = () => {
   return (
     <section className={styles.testimonialsContainer}>
       <h3>Témoignages</h3>

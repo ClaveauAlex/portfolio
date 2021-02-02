@@ -5,12 +5,18 @@ class MyDocument extends Document {
     return (
       <Html lang="fr">
         <Head>
-          <link rel="icon" href="/favicon.ico" />
-          <meta name="description" content="Développeur Frontend freelance à Brest. Je développe des sites Web, interfaces ainsi que des maquettes." />
+          <link rel="icon" href="../favicon.ico" />
+          <meta
+            name="description"
+            content="Développeur Frontend freelance à Brest. Je développe des sites Web, interfaces ainsi que des maquettes."
+          />
           <meta property="og:locale" content="fr_FR" />
           <meta property="og:type" content="website" />
           <meta property="og:title" content="Alexandre Claveau Portfolio" />
-          <meta property="og:description" content="Développeur Frontend freelance à Brest. Je développe des sites Web, interfaces ainsi que des maquettes." />
+          <meta
+            property="og:description"
+            content="Développeur Frontend freelance à Brest. Je développe des sites Web, interfaces ainsi que des maquettes."
+          />
           <meta property="og:url" content="https://alexandre-claveau.fr" />
           <meta property="og:site_name" content="Alexandre Claveau" />
           <link

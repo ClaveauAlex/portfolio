@@ -1,10 +1,11 @@
+import React from "react";
 import styles from "../styles/Experiences.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Experiences() {
+export const Experiences = () => {
   return (
-    <section className={styles.experiencesContainer}>
+    <section className={styles.experiencesContainer} id="experiences">
       <h3 className={styles.titleSection}>Expériences</h3>
       <div className={styles.experiences}>
         <div className={styles.experienceFutur}>
@@ -39,7 +40,7 @@ export default function Experiences() {
               mauris diam massa vitae at posuere lorem fringilla. Sit dolor,
               quis nullam porttitor duis hendrerit.{" "}
             </p>
-            <a to="#" className={styles.lien}>En savoir plus</a>
+            <a className={styles.lien}>En savoir plus</a>
           </div>
         </div>
         <div className={styles.experienceTwo}>
@@ -58,7 +59,7 @@ export default function Experiences() {
               mauris diam massa vitae at posuere lorem fringilla. Sit dolor,
               quis nullam porttitor duis hendrerit.{" "}
             </p>
-            <a to="#" className={styles.lien}>En savoir plus</a>
+            <a className={styles.lien}>En savoir plus</a>
           </div>
         </div>
         <div className={styles.experienceThree}>
@@ -77,7 +78,7 @@ export default function Experiences() {
               mauris diam massa vitae at posuere lorem fringilla. Sit dolor,
               quis nullam porttitor duis hendrerit.{" "}
             </p>
-            <a to="#" className={styles.lien}>En savoir plus</a>
+            <a className={styles.lien}>En savoir plus</a>
           </div>
         </div>
       </div>

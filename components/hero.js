@@ -1,7 +1,8 @@
+import React from "react";
 import styles from "../styles/Hero.module.css";
 import Image from "next/image";
 
-export default function Hero() {
+export const Hero = () => {
   return (
     <section className={styles.heroContainer}>
       <div className={styles.moi}>

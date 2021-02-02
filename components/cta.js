@@ -1,7 +1,8 @@
+import React from "react";
 import styles from "../styles/Cta.module.css";
 import Link from "next/link";
 
-export default function Cta() {
+export const Cta = () => {
   return (
     <section className={styles.ctaContainer}>
       <div className={styles.cta}>

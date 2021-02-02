@@ -1,9 +1,10 @@
+import React from "react";
 import styles from "../styles/Skills.module.css";
 import Image from "next/image";
 
-export default function Skills() {
+export const Skills = () => {
   return (
-    <section className={styles.skillsContainer}>
+    <section className={styles.skillsContainer} id="skills">
       <h3 className={styles.titleSection}>Compétences</h3>
       <div className={styles.skills}>
         <div className={styles.skillsElements}>

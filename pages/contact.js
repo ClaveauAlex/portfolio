@@ -1,27 +1,21 @@
-import Link from "next/link";
+import React from "react";
 import Head from "next/head";
-import {informations} from './index';
+import {Navbar} from "../components/navbar";
+import {Contact} from "../components/contact";
+import styles from "../styles/Home.module.css";
 
-export default function Contact() {
+const pageContact = () => {
   return (
     <>
       <Head>
-        <title>{informations.siteTitle}</title>
-        <link rel="icon" href="/favicon.ico" />
-        <meta name="description" content={informations.description} />
-        <meta property="og:locale" content="fr_FR" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content={informations.siteTitle} />
-        <meta property="og:description" content={informations.description} />
-        <meta property="og:url" content={informations.url} />
-        <meta property="og:site_name" content={informations.name} />
+        <title>Me contacter</title>
       </Head>
-      <h1>Contact Page</h1>
-      <h2>
-        <Link href="/">
-          <a>Back to home</a>
-        </Link>
-      </h2>
+      <Navbar></Navbar>
+      <main className={styles.mainContainer}>
+        <Contact></Contact>
+      </main>
     </>
   );
 }
+
+export default pageContact;

@@ -1,20 +1,20 @@
+import React from "react";
 import Head from "next/head";
-import Link from "next/link";
-import Navbar from "../components/navbar";
-import Hero from "../components/hero";
-import About from "../components/about";
-import Skills from "../components/skills";
-import Experiences from "../components/experiences";
-import Testimonials from "../components/testimonials";
-import Cta from "../components/cta";
-import Footer from "../components/footer";
+import {Navbar} from "../components/navbar";
+import {Hero} from "../components/hero";
+import {About} from "../components/about";
+import {Skills} from "../components/skills";
+import {Experiences} from "../components/experiences";
+import {Testimonials} from "../components/testimonials";
+import {Cta} from "../components/cta";
+import {Footer} from "../components/footer";
 import styles from "../styles/Home.module.css";
 
-export default function Home() {
+const Home = () => {
   return (
-    <div>
+    <>
       <Head>
-        <title>Alexandre Claveau Portfolio</title>
+        <title>Accueil portfolio</title>
       </Head>
       <Navbar></Navbar>
       <main className={styles.mainContainer}>
@@ -26,6 +26,8 @@ export default function Home() {
         <Cta></Cta>
       </main>
       <Footer></Footer>
-    </div>
+    </>
   );
 }
+
+export default Home;

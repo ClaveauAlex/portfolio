@@ -1,9 +1,10 @@
+import React from "react";
 import styles from "../styles/About.module.css";
 import Image from "next/image";
 
-export default function About() {
+export const About = () => {
   return (
-    <section className={styles.aboutContainer}>
+    <section className={styles.aboutContainer} id="about">
       <h3 className={styles.titleSection}>A propos</h3>
       <div className={styles.aboutContainer}>
         <div className={styles.aboutPartOne}>

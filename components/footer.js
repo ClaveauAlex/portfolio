@@ -1,8 +1,9 @@
+import React from "react";
 import styles from "../styles/Footer.module.css";
 import Link from "next/link";
 import { AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
 
-export default function Footer() {
+export const Footer = () => {
   const linkedinUrl = "https://www.linkedin.com/in/alexandre-claveau/";
   const instagramUrl = "https://www.instagram.com/alexandre_claveau.me/";
 
@@ -17,17 +18,17 @@ export default function Footer() {
         <p className={styles.bold}>Liens</p>
         <ul className={styles.liste}>
           <li>
-            <Link href="#">
+            <Link href="#about">
               <a>A propos</a>
             </Link>
           </li>
           <li>
-            <Link href="#">
+            <Link href="#skills">
               <a>Compétences</a>
             </Link>
           </li>
           <li>
-            <Link href="#">
+            <Link href="#experiences">
               <a>Expériences</a>
             </Link>
           </li>
@@ -43,13 +44,13 @@ export default function Footer() {
         <ul className={styles.socialContainer}>
           <li className={styles.linkSocial}>
             <AiFillLinkedin />
-            <a to={linkedinUrl} target="_blank">
+            <a href={linkedinUrl} target="_blank">
               linkedin.fr/claveau
             </a>
           </li>
           <li className={styles.linkSocial}>
             <AiFillInstagram />
-            <a to={instagramUrl} target="_blank">
+            <a href={instagramUrl} target="_blank">
               alexandre_claveau.me
             </a>
           </li>
