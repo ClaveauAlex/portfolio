@@ -29,12 +29,12 @@ export const Contact = () => {
         </div>
         <ul className={styles.links}>
           <li>
-            <Link href={linkedinUrl} target="_blank">
+            <Link href={linkedinUrl} rel="noopener" target="_blank">
               <a>Linkedin</a>
             </Link>
           </li>
           <li>
-            <Link href={instagramUrl} target="_blank">
+            <Link href={instagramUrl} rel="noopener" target="_blank">
               <a>Instagram</a>
             </Link>
           </li>

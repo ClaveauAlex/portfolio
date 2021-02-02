@@ -44,13 +44,13 @@ export const Footer = () => {
         <ul className={styles.socialContainer}>
           <li className={styles.linkSocial}>
             <AiFillLinkedin />
-            <a href={linkedinUrl} target="_blank">
+            <a href={linkedinUrl} rel="noopener" target="_blank">
               linkedin.fr/claveau
             </a>
           </li>
           <li className={styles.linkSocial}>
             <AiFillInstagram />
-            <a href={instagramUrl} target="_blank">
+            <a href={instagramUrl} rel="noopener" target="_blank">
               alexandre_claveau.me
             </a>
           </li>
