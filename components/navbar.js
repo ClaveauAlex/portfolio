@@ -2,9 +2,11 @@ import React from "react";
 import styles from "../styles/Navbar.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import {useRouter} from "next/router";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 export const Navbar = () => {
+  const router = useRouter();
   return (
     <nav className={styles.container}>
       <Link href="/">
@@ -20,13 +22,13 @@ export const Navbar = () => {
       </Link>
       <ul className={styles.links}>
         <li>
-          <a href="#about">A propos</a>
+          <a href={router.pathname === "/contact" ? "/#about" : "#about"}>A propos</a>
         </li>
         <li>
-          <a href="#skills">Compétences</a>
+          <a href={router.pathname === "/contact" ? "/#skills" : "#skills"}>Compétences</a>
         </li>
         <li>
-          <a href="#experiences">Expériences</a>
+          <a href={router.pathname === "/contact" ? "/#experiences" : "#experiences"}>Expériences</a>
         </li>
       </ul>
       <div className={styles.menu}>
