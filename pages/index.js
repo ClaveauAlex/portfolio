@@ -10,28 +10,11 @@ import Cta from "../components/cta";
 import Footer from "../components/footer";
 import styles from "../styles/Home.module.css";
 
-export const informations = {
-  name: "Alexandre Claveau",
-  siteTitle: "Alexandre Claveau Portfolio",
-  description:
-    "Développeur Frontend freelance à Brest. Je développe des sites Web, interfaces ainsi que des maquettes.",
-  url: "https://alexandre-claveau.fr",
-};
-
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>{informations.siteTitle}</title>
-        <link rel="icon" href="/favicon.ico" />
-        <meta name="description" content={informations.description} />
-        <meta property="og:locale" content="fr_FR" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content={informations.siteTitle} />
-        <meta property="og:description" content={informations.description} />
-        <meta property="og:url" content={informations.url} />
-        <meta property="og:site_name" content={informations.name} />
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet" />
+        <title>Alexandre Claveau Portfolio</title>
       </Head>
       <Navbar></Navbar>
       <main className={styles.mainContainer}>
