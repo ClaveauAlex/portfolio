@@ -21,7 +21,7 @@
   height: 40px;
 }
 
-.menu {
+.menuButton {
   background-image: url(../public/Vector.svg);
   color: #fff;
   display: flex;
@@ -29,6 +29,10 @@
   align-items: center;
   height: 40px;
   width: 40px;
+}
+
+.rc-menu-button{
+  color: #347c90;
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -83,7 +87,7 @@
     transition: all 0.2s ease-in-out;
   }
 
-  .menu {
+  .menuButton {
     display: none;
   }
 }
