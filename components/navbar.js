@@ -3,7 +3,6 @@ import styles from "../styles/Navbar.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
-// import { AiOutlineMenu } from "react-icons/ai";
 import { Menu, MenuItem, MenuButton } from "@szhsin/react-menu";
 import "@szhsin/react-menu/dist/index.css";
 
@@ -46,34 +45,32 @@ export const Navbar = () => {
       </ul>
       <div className={styles.menuButton}>
         <Menu menuButton={<MenuButton>Menu</MenuButton>}>
-        <MenuItem>
-          <a href={router.pathname === "/contact" ? "/#about" : "#about"}>
-            A propos
-          </a>
-        </MenuItem>
-        <MenuItem>
-          <a href={router.pathname === "/contact" ? "/#skills" : "#skills"}>
-            Compétences
-          </a>
-        </MenuItem>
-        <MenuItem>
-          <a
-            href={
-              router.pathname === "/contact" ? "/#experiences" : "#experiences"
-            }
-          >
-            Expériences
-          </a>
-        </MenuItem>
-        <MenuItem>
-          <a href="/contact">Contact</a>
-        </MenuItem>
-      </Menu>
+          <MenuItem>
+            <a href={router.pathname === "/contact" ? "/#about" : "#about"}>
+              A propos
+            </a>
+          </MenuItem>
+          <MenuItem>
+            <a href={router.pathname === "/contact" ? "/#skills" : "#skills"}>
+              Compétences
+            </a>
+          </MenuItem>
+          <MenuItem>
+            <a
+              href={
+                router.pathname === "/contact"
+                  ? "/#experiences"
+                  : "#experiences"
+              }
+            >
+              Expériences
+            </a>
+          </MenuItem>
+          <MenuItem>
+            <a href="/contact">Contact</a>
+          </MenuItem>
+        </Menu>
       </div>
-      
-      {/* <div className={styles.menuButton}>
-        <AiOutlineMenu />
-      </div> */}
       <Link href="/contact">
         <a className={styles.contact}>Me contacter</a>
       </Link>
