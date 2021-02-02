@@ -77,9 +77,9 @@ export const Experiences = () => {
           <div className={styles.infos}>
             <h4>Alternant Développeur Front-End</h4>
             <p>
-              C'est une équipe rattaché au service Banque à Distance de la
-              direction des études, nous sommes une équipe Agile et
-              pluridisciplinaire d'alternants qui réalise des projets à valeur
+              J'ai fait partie d'une équipe rattaché au service Banque à Distance de la
+              direction des études. Nous étions une équipe Agile et
+              pluridisciplinaire d'alternants qui réalisait des projets à valeur
               ajoutée pour l'utilisateur (clients ou salariés).{" "}
             </p>
             <a className={styles.lien}>En savoir plus</a>
