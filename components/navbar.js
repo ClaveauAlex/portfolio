@@ -44,7 +44,8 @@ export const Navbar = () => {
           </a>
         </li>
       </ul>
-      <Menu menuButton={<MenuButton>Menu</MenuButton>}>
+      <div className={styles.menuButton}>
+        <Menu menuButton={<MenuButton>Menu</MenuButton>}>
         <MenuItem>
           <a href={router.pathname === "/contact" ? "/#about" : "#about"}>
             A propos
@@ -68,6 +69,8 @@ export const Navbar = () => {
           <a href="/contact">Contact</a>
         </MenuItem>
       </Menu>
+      </div>
+      
       {/* <div className={styles.menuButton}>
         <AiOutlineMenu />
       </div> */}
