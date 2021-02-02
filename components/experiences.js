@@ -36,9 +36,9 @@ export const Experiences = () => {
           <div className={styles.infos}>
             <h4>Consultant Développeur Front-End</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus
-              mauris diam massa vitae at posuere lorem fringilla. Sit dolor,
-              quis nullam porttitor duis hendrerit.{" "}
+              J'ai intégré une équipe au sein de la DSIRH de L’Oréal afin de
+              développer un outil interne. Celui-ci permet de gérer les
+              différentes formations proposées aux collaborateurs L’Oréal.{" "}
             </p>
             <a className={styles.lien}>En savoir plus</a>
           </div>
@@ -55,9 +55,12 @@ export const Experiences = () => {
           <div className={styles.infos}>
             <h4>Alternant Développeur Front-End</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus
-              mauris diam massa vitae at posuere lorem fringilla. Sit dolor,
-              quis nullam porttitor duis hendrerit.{" "}
+              Maintenance et évolutions sur un outil dédié aux professionnels du
+              groupe BPCE. J’ai développé un outil de démonstration afin de
+              promouvoir l'étendu de CE net aux différents clients du groupe.
+              Enfin, sur la fin de mon alternance, j'ai eu l'opportunité
+              d'étendre mes compétences sur la mise en place d'intégration
+              continue au sein de mon équipe.{" "}
             </p>
             <a className={styles.lien}>En savoir plus</a>
           </div>
@@ -74,9 +77,10 @@ export const Experiences = () => {
           <div className={styles.infos}>
             <h4>Alternant Développeur Front-End</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus
-              mauris diam massa vitae at posuere lorem fringilla. Sit dolor,
-              quis nullam porttitor duis hendrerit.{" "}
+              C'est une équipe rattaché au service Banque à Distance de la
+              direction des études, nous sommes une équipe Agile et
+              pluridisciplinaire d'alternants qui réalise des projets à valeur
+              ajoutée pour l'utilisateur (clients ou salariés).{" "}
             </p>
             <a className={styles.lien}>En savoir plus</a>
           </div>
@@ -84,4 +88,4 @@ export const Experiences = () => {
       </div>
     </section>
   );
-}
+};
