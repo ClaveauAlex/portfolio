@@ -71,7 +71,7 @@
   }
 
   .links > li:hover{
-    color: red;
+    color: gray;
   }
 
   .links > li:first-child{

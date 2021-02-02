@@ -40,7 +40,7 @@ export const Experiences = () => {
               développer un outil interne. Celui-ci permet de gérer les
               différentes formations proposées aux collaborateurs L’Oréal.{" "}
             </p>
-            <a className={styles.lien}>En savoir plus</a>
+            <button className={styles.lien}>En savoir plus</button>
           </div>
         </div>
         <div className={styles.experienceTwo}>
@@ -62,7 +62,7 @@ export const Experiences = () => {
               d'étendre mes compétences sur la mise en place d'intégration
               continue au sein de mon équipe.{" "}
             </p>
-            <a className={styles.lien}>En savoir plus</a>
+            <button className={styles.lien}>En savoir plus</button>
           </div>
         </div>
         <div className={styles.experienceThree}>
@@ -82,7 +82,7 @@ export const Experiences = () => {
               pluridisciplinaire d'alternants qui réalisait des projets à valeur
               ajoutée pour l'utilisateur (clients ou salariés).{" "}
             </p>
-            <a className={styles.lien}>En savoir plus</a>
+            <button className={styles.lien}>En savoir plus</button>
           </div>
         </div>
       </div>
