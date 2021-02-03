@@ -24,7 +24,6 @@ export const Contact = () => {
           <a href="mailto:alexandre.claveau.pro@gmail.com">
             alexandre.claveau.pro@gmail.com
           </a>
-          <a href="tel:+33648341409">06 48 34 14 09</a>
         </div>
         <ul className={styles.links}>
           <li>
