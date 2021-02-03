@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import styles from "../styles/Experiences.module.css";
 import Image from "next/image";
 import Link from "next/link";

@@ -59,6 +59,10 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .skillsContainer {
+    padding: 100px 0;
+  }
+
   .icon {
     display: flex;
     justify-content: center;

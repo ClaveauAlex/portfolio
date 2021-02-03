@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "../styles/Skills.module.css";
 import Image from "next/image";
 
@@ -19,8 +18,8 @@ export const Skills = () => {
           <h4 className={styles.title}>Développement</h4>
           <ul className={styles.liste}>
             <li>React</li>
+            <li>Nextjs</li>
             <li>CSS</li>
-            <li>Node</li>
             <li>Express</li>
             <li>MongoDB</li>
             <li>Git</li>
