@@ -1,0 +1,48 @@
+.erreurContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  padding: 32px;
+}
+
+.titleBold {
+  color: #347c90;
+  font-weight: 600;
+}
+
+.returnButton {
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 1px solid #347c90;
+  color: #347c90;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.returnButton:hover {
+  background-color: rgba(25, 35, 60, 0.1);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
