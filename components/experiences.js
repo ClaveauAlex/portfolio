@@ -1,9 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "../styles/Experiences.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
 export const Experiences = () => {
+  const [readMore, setReadMore] = useState(false);
+  const extraContent1 = (
+    <p>Stack technique : AngularJS, ABAP, JavaScript, CSS, HTML, lodash</p>
+  );
+  const extraContent2 = (
+    <p>
+      Stack Technique : ASP.NET, Hibernate, Spring.net, PMM/PMV, Ajax,
+      Knockout.js
+    </p>
+  );
+  const extraContent3 = (
+    <p>
+      Projets : Refonte d'interface,Ajout des fonctionnalités sur
+      l'application mobile du Crédit Mutuel ARKEA <br/>Stack Technique : AngularJS,
+      JavaScript, SCSS, HTML, Cordova, Android Natif, Java 6, MySQL
+    </p>
+  );
+  const linkName = readMore ? "En savoir moins" : "En savoir plus";
+
   return (
     <section className={styles.experiencesContainer} id="experiences">
       <h3 className={styles.titleSection}>Expériences</h3>
@@ -40,7 +59,16 @@ export const Experiences = () => {
               développer un outil interne. Celui-ci permet de gérer les
               différentes formations proposées aux collaborateurs L’Oréal.{" "}
             </p>
-            <button name="En savoir plus" className={styles.lien}>En savoir plus</button>
+            {readMore && extraContent1}
+            <button
+              name="En savoir plus"
+              className={styles.lien}
+              onClick={() => {
+                setReadMore(!readMore);
+              }}
+            >
+              {linkName}
+            </button>
           </div>
         </div>
         <div className={styles.experienceTwo}>
@@ -62,7 +90,12 @@ export const Experiences = () => {
               d'étendre mes compétences sur la mise en place d'intégration
               continue au sein de mon équipe.{" "}
             </p>
-            <button name="En savoir plus" className={styles.lien}>En savoir plus</button>
+            {readMore && extraContent2}
+            <button name="En savoir plus" className={styles.lien} onClick={() => {
+                setReadMore(!readMore);
+              }}>
+              {linkName}
+            </button>
           </div>
         </div>
         <div className={styles.experienceThree}>
@@ -77,12 +110,17 @@ export const Experiences = () => {
           <div className={styles.infos}>
             <h4>Alternant Développeur Front-End</h4>
             <p>
-              J'ai fait partie d'une équipe rattaché au service Banque à Distance de la
-              direction des études. Nous étions une équipe Agile et
-              pluridisciplinaire d'alternants qui réalisait des projets à valeur
-              ajoutée pour l'utilisateur (clients ou salariés).{" "}
+              J'ai fait partie d'une équipe rattaché au service Banque à
+              Distance de la direction des études. Nous étions une équipe Agile
+              et pluridisciplinaire d'alternants qui réalisait des projets à
+              valeur ajoutée pour l'utilisateur (clients ou salariés).{" "}
             </p>
-            <button name="En savoir plus" className={styles.lien}>En savoir plus</button>
+            {readMore && extraContent3}
+            <button name="En savoir plus" className={styles.lien} onClick={() => {
+                setReadMore(!readMore);
+              }}>
+              {linkName}
+            </button>
           </div>
         </div>
       </div>
