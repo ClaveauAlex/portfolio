@@ -6,10 +6,20 @@ class MyDocument extends Document {
       <Html lang="fr">
         <Head>
           <link rel="icon" href="../favicon.ico" />
+          <meta charset="utf-8" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta
+            name="viewport"
+            content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=0"
+          />
           <meta
             name="description"
             content="Développeur Frontend freelance à Brest. Je développe des sites Web, interfaces ainsi que des maquettes."
           />
+          <meta
+            name="keywords"
+            content="Alexandre Claveau, Alexandre, Claveau, Alex Claveau, alexclaveau, claveau, claveau developer, claveau développeur, Alexandre Développeur, Developer, Web Developer, Reactjs / Nextjs Developer, Web, Développeur, Développeur Web, Developpeur Web, Full Stack, Full Stack Developer, Développeur Full Stack, ISEN, ISEN Brest, Olympp, ITCE, ARKEA, OpenClassrooms, Developer, Bootstrap, CSS3, Git, HTML5, Javascript, Linux, MySQL, Node.js, Reactjs, Nextjs, Node, Freelance Developer, Développeur Freelance, Best web developer, Best Freelance Developer, Experienced developer, Meilleur développeur freelance, Brest"
+          ></meta>
           <meta property="og:locale" content="fr_FR" />
           <meta property="og:type" content="website" />
           <meta property="og:title" content="Alexandre Claveau Portfolio" />
