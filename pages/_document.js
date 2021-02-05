@@ -7,11 +7,6 @@ class MyDocument extends Document {
         <Head>
           <link rel="icon" href="../favicon.ico" />
           <meta charset="utf-8" />
-          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-          <meta
-            name="viewport"
-            content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=0"
-          />
           <meta
             name="description"
             content="Développeur Frontend freelance à Brest. Je développe des sites Web, interfaces ainsi que des maquettes."
