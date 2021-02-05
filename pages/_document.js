@@ -18,7 +18,7 @@ class MyDocument extends Document {
           />
           <meta
             name="keywords"
-            content="Alexandre Claveau, Alexandre, Claveau, Alex Claveau, alexclaveau, claveau, claveau developer, claveau développeur, Alexandre Développeur, Developer, Web Developer, Reactjs / Nextjs Developer, Web, Développeur, Développeur Web, Developpeur Web, Full Stack, Full Stack Developer, Développeur Full Stack, ISEN, ISEN Brest, Olympp, ITCE, ARKEA, OpenClassrooms, Developer, Bootstrap, CSS3, Git, HTML5, Javascript, Linux, MySQL, Node.js, Reactjs, Nextjs, Node, Freelance Developer, Développeur Freelance, Best web developer, Best Freelance Developer, Experienced developer, Meilleur développeur freelance, Brest"
+            content="Alexandre Claveau, Alexandre, Claveau, Alex Claveau, alexclaveau, claveau, claveau developer, claveau développeur, Alexandre Développeur, Developer, Web Developer, Reactjs / Nextjs Developer, Web, Développeur, Développeur Web, Developpeur Web, Full Stack, Full Stack Developer, Développeur Full Stack, ISEN, ISEN Brest, Olympp, ITCE, ARKEA, OpenClassrooms, Developer, Bootstrap, CSS3, Git, HTML5, Javascript, Linux, MySQL, Node.js, Reactjs, Nextjs, Node, Freelance Developer, Développeur Freelance, Best web developer, Best Freelance Developer, Experienced developer, Meilleur développeur freelance, Figma, UX, UI, maquette, Brest"
           ></meta>
           <meta property="og:locale" content="fr_FR" />
           <meta property="og:type" content="website" />
