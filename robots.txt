@@ -6,4 +6,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: http://www.alexandre-claveau.fr/sitemap.xml
+Sitemap: http://alexandre-claveau.fr/sitemap.xml
