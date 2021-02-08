@@ -10,7 +10,7 @@ class MyDocument extends Document {
           <meta name="author" content="Alexandre Claveau"/>
           <meta
             name="description"
-            content="Développeur Frontend freelance à Brest. Je développe des sites Web, interfaces ainsi que des maquettes."
+            content="Je suis Alexandre Claveau et développeur Frontend freelance à Brest. Je développe des sites Web, interfaces ainsi que des maquettes."
           />
           <meta
             name="keywords"
