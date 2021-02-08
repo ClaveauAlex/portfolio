@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Accueil portfolio</title>
+        <title>Alexandre Claveau - Reactjs Nextjs Développeur</title>
       </Head>
       <Navbar></Navbar>
       <main className={styles.mainContainer}>

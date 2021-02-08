@@ -8,7 +8,7 @@ const pageContact = () => {
   return (
     <>
       <Head>
-        <title>Me contacter</title>
+        <title>Alexandre Claveau - Reactjs Nextjs Développeur</title>
       </Head>
       <Navbar></Navbar>
       <main className={styles.mainContainer}>
